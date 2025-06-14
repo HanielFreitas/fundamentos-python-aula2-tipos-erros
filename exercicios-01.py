@@ -14,3 +14,11 @@ num2 = int(input("Digite o segundo número inteiro: "))
 soma = num1 + num2
 print(f"A soma dos números é: {soma}")
 
+
+# Exercicio 2: Resto da divisão
+print("\nVAMOS TREINAR DIVISÃO E SABER QUAL O RESTO DA DIVISÃO?")
+print("************************************************\n")
+constante = 5
+num3 = int(input("Digite um número que o diviremos por 5: "))
+resto = num3 % constante
+print(f"O resto da divisão de {num3} por {constante} é: {resto}")
