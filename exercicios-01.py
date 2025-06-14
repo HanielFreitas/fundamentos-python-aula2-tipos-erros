@@ -41,3 +41,14 @@ num6 = int(input("Digite um número inteiro: "))
 num7 = int(input("Digite outro número intiro: "))
 divisao = num6 // num7
 print(f"A divisão do {num6} pelo {num7} é igual a: {divisao}")
+
+#5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
+print("\nVAMOS TREINAR RAIZ QUADRADA AGORA?")
+print("************************************************\n")
+num8 = int(input("Digite a base: "))
+num9 = int(input("Digite o expoente: "))
+conta = num8 ** num9
+print(
+    f"Sendo a base {num8} e o expoente {num9} o resultado é: {conta}."
+f" Pois a base {num8} se repete pela quantidade de vezes do meu expoente {num9}"
+)
