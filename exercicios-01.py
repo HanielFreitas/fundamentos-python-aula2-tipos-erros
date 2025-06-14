@@ -30,3 +30,14 @@ num4 = int(input("Digite um número inteiro: "))
 num5 = int(input("Digite outro número inteiro: "))
 multi = num4 * num5
 print(f"A multiplicação do {num4} pelo {num5} é igual a {multi}")
+
+
+#4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
+#Exercicio 4: Divisão de dois numeros inteiro
+
+print("\nVAMOS TREINAR A DIVISÃO DE DOIS NÚMEROS INTEIROS E SABER QUAL O NOSSO QUOCIENTE?")
+print("************************************************\n")
+num6 = int(input("Digite um número inteiro: "))
+num7 = int(input("Digite outro número intiro: "))
+divisao = num6 // num7
+print(f"A divisão do {num6} pelo {num7} é igual a: {divisao}")
