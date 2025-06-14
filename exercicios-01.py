@@ -22,3 +22,11 @@ constante = 5
 num3 = int(input("Digite um número que o diviremos por 5: "))
 resto = num3 % constante
 print(f"O resto da divisão de {num3} por {constante} é: {resto}")
+
+# Exercicio 3: Multiplicação de dois números
+print("\nVAMOS TREINAR MULTIPLICAÇÃO DE DOIS NÚMEROS INTEIROS?")
+print("************************************************\n")
+num4 = int(input("Digite um número inteiro: "))
+num5 = int(input("Digite outro número inteiro: "))
+multi = num4 * num5
+print(f"A multiplicação do {num4} pelo {num5} é igual a {multi}")
