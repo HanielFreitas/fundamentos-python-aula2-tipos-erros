@@ -6,9 +6,13 @@ Inteiros (int)
 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
 """
+#Adicionando uma função
+def titulo(titulo):
+    print("\n" + titulo)
+    print("*" * len(titulo) + "\n")
+
 # Exercicio 1: Soma de dois números inteiros
-print("\nVAMOS TREINAR SOMA DE DOIS NUMEROS INTEIROS?")
-print("************************************************\n")
+titulo("VAMOS TREINAR SOMA DE DOIS NUMEROS INTEIROS?")
 num1 = int(input("Digite o primeiro número inteiro: "))
 num2 = int(input("Digite o segundo número inteiro: "))
 soma = num1 + num2
@@ -16,16 +20,14 @@ print(f"A soma dos números é: {soma}")
 
 
 # Exercicio 2: Resto da divisão
-print("\nVAMOS TREINAR DIVISÃO E SABER QUAL O RESTO DA DIVISÃO?")
-print("************************************************\n")
+titulo("VAMOS TREINAR DIVISÃO E SABER QUAL O RESTO DA DIVISÃO?")
 constante = 5
 num3 = int(input("Digite um número que o diviremos por 5: "))
 resto = num3 % constante
 print(f"O resto da divisão de {num3} por {constante} é: {resto}")
 
 # Exercicio 3: Multiplicação de dois números
-print("\nVAMOS TREINAR MULTIPLICAÇÃO DE DOIS NÚMEROS INTEIROS?")
-print("************************************************\n")
+titulo("VAMOS TREINAR MULTIPLICAÇÃO DE DOIS NÚMEROS INTEIROS?")
 num4 = int(input("Digite um número inteiro: "))
 num5 = int(input("Digite outro número inteiro: "))
 multi = num4 * num5
@@ -35,16 +37,14 @@ print(f"A multiplicação do {num4} pelo {num5} é igual a {multi}")
 #4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
 #Exercicio 4: Divisão de dois numeros inteiro
 
-print("\nVAMOS TREINAR A DIVISÃO DE DOIS NÚMEROS INTEIROS E SABER QUAL O NOSSO QUOCIENTE?")
-print("************************************************\n")
+titulo("VAMOS TREINAR A DIVISÃO DE DOIS NÚMEROS INTEIROS E SABER QUAL O NOSSO QUOCIENTE?")
 num6 = int(input("Digite um número inteiro: "))
 num7 = int(input("Digite outro número intiro: "))
 divisao = num6 // num7
 print(f"A divisão do {num6} pelo {num7} é igual a: {divisao}")
 
 #5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
-print("\nVAMOS TREINAR RAIZ QUADRADA AGORA?")
-print("************************************************\n")
+titulo("VAMOS TREINAR RAIZ QUADRADA AGORA?")
 num8 = int(input("Digite a base: "))
 num9 = int(input("Digite o expoente: "))
 conta = num8 ** num9

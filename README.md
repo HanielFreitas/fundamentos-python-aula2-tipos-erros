@@ -4,6 +4,15 @@
 
 Estas atividades reforçam o uso de **números inteiros em Python**, entrada de dados com `input()` e operadores matemáticos.
 
+## ♻️ Refatoração com função `titulo()`
+
+Para padronizar e reutilizar a formatação dos cabeçalhos dos exercícios no terminal, foi criada a função:
+
+```python
+def titulo(titulo):
+    print("\n" + titulo)
+    print("*" * len(titulo) + "\n")
+
 ### 🔢 Exercícios:
 
 1. **Soma de inteiros**  
