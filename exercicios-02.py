@@ -59,3 +59,10 @@ const1 = 32
 const2 = 9/5
 Fahrenheit = (c * const2) + const1
 print(f"A temperatura de {c:.2f} graus Celsius convertida para Fahrenheit é de {Fahrenheit:.2f} graus Fahrenheit")
+
+# 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
+raio = float(input("Digite o valor do Raio: "))
+pi = 3.14159
+raio_quadrado = raio*raio
+area = pi * raio_quadrado
+print(area)
