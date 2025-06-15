@@ -42,11 +42,20 @@ else:
         f"\nMédia final maior que {media_final}"
         "\nParabéns você passou")
 
-        # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
-    titulo("VAMOS CALULAR A POTENCIA DE UM NÚMERO")
-    base = float(input("Digite a base: "))
-    expoente = float(input("Digite o expoente: "))
-    potencia = base ** expoente
-    print(f"Vamos calular a potencia com a base {base} e o expoente {expoente}."
-    f"\nO valor da potencia é igual a {potencia}")
+# 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
+titulo("VAMOS CALULAR A POTENCIA DE UM NÚMERO")
+
+base = float(input("Digite a base: "))
+expoente = float(input("Digite o expoente: "))
+potencia = base ** expoente
+print(f"Vamos calular a potencia com a base {base} e o expoente {expoente}."
+f"\nO valor da potencia é igual a {potencia}")
     
+# 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
+titulo("CONVERTENDO DE Celsius PARA Fahrenheit")
+
+c = float(input("Digita a temperatura em graus Celsius: "))
+const1 = 32
+const2 = 9/5
+Fahrenheit = (c * const2) + const1
+print(f"A temperatura de {c:.2f} graus Celsius convertida para Fahrenheit é de {Fahrenheit:.2f} graus Fahrenheit")
