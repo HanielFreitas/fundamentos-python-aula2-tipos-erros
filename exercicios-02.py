@@ -41,3 +41,12 @@ else:
                     print(f"\nMédia final: {media:.2f}"
         f"\nMédia final maior que {media_final}"
         "\nParabéns você passou")
+
+        # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
+    titulo("VAMOS CALULAR A POTENCIA DE UM NÚMERO")
+    base = float(input("Digite a base: "))
+    expoente = float(input("Digite o expoente: "))
+    potencia = base ** expoente
+    print(f"Vamos calular a potencia com a base {base} e o expoente {expoente}."
+    f"\nO valor da potencia é igual a {potencia}")
+    
