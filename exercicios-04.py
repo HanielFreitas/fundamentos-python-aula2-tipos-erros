@@ -38,10 +38,16 @@ else:
     print("Entrada inválida! Use apenas True ou False")
 
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
-titulo("Comparar dois numeros")
+titulo("Comparar dois numeros se são iguais")
 num1 = float(input("Digite um numero: "))
 num2 = float(input("Digite outro numero: "))
 comparar = num1 == num2
 print(comparar)
 
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
+
+titulo("Comparar dois numeros se são diferentes")
+num3 = float(input("Digite um numero: "))
+num4 = float(input("Digite outro numero: "))
+comparar_diferente = num3 != num4
+print(comparar_diferente)
