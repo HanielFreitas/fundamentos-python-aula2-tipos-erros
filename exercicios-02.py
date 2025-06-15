@@ -5,8 +5,6 @@
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
 
-import math
-
 def titulo(titulo):
     print("\n" + titulo.upper())
     print("*" * len(titulo) + "\n")
@@ -18,3 +16,28 @@ num2 = float(input("Digite outro número quebrado: "))
 soma = num1 + num2
 print(f"A soma de {num1} + {num2} é igual: {soma}")
 
+# 7. Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
+titulo("VAMOS CALCULAR SUA MEDIA PARA SABER SE PASSOU OU REPROVOU? ")
+
+n = int(input("Quantas notas você tem para lançar? "))#Perguntando do usuário quantas notas ele precisa calcular
+if n == 1:
+    print("Não é necessário calcular a média pois só existe uma nota")
+else:
+    quantidade = []#Criando uma variavel vazia do tipo lista para receber os valores
+    
+    for i in range(n): #criando um for e passando o range da quantidade de notas
+
+        num = float(input(f'Digite a nota 0{i+1}: '))
+        quantidade.append(num)
+
+    media = sum(quantidade) / len(quantidade)
+    media_final = 6
+
+    if media < media_final:
+        print(f"\nMédia final: {media:.2f}"
+        f"\nMédia final menor que {media_final}"
+        "\nVocê precisa estudar mais")
+    else:
+                    print(f"\nMédia final: {media:.2f}"
+        f"\nMédia final maior que {media_final}"
+        "\nParabéns você passou")
