@@ -4,14 +4,23 @@
 
 Estas atividades reforçam o uso de **números inteiros em Python**, entrada de dados com `input()` e operadores matemáticos.
 
-## ♻️ Refatoração com função `titulo()`
+## 📦 Alterações no decorrer das atividades
+
+### ♻️ Refatoração com função `titulo()`
 
 Para padronizar e reutilizar a formatação dos cabeçalhos dos exercícios no terminal, foi criada a função:
 
 ```python
 def titulo(titulo):
     print("\n" + titulo)
-    print("*" * len(titulo) + "\n")
+    print("*" * len(titulo) + "\n")```
+
+### Adicionando try e except básicos no codigo
+
+   except ZeroDivisionError:
+      print("integer division or modulo by zero")
+   except KeyboardInterrupt:
+      print("Acredito que você não queira mais digitar nenhum número")
 
 ### 🔢 Exercícios:
 
