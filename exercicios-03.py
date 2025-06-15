@@ -23,3 +23,9 @@ print(nome.lower())
 titulo("Vamos tirar os espaços do inicio e do fim da frase")
 frase = input("Digite um frase: ")
 print(frase.strip())
+
+# 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
+titulo("Vamos dividir o dd/mm/aaaa")
+data = input("Digite uma data no formato dd/mm/aaaa:")
+data_sep = data.split("/")
+print(data_sep)
