@@ -80,3 +80,12 @@ O programa contém as seguintes operações:
 5. **Cálculo da área de um círculo**
 
 ---
+
+## Exercício 03 - Manipulaçãp de Strings (`str`)
+1. **Conversão para maiúsculas
+2. **Conversão para minúsculas
+3. **Remoção de espaços
+4. **Separação de data (dd/mm/aaaa)
+5. **Concatenação
+
+---
