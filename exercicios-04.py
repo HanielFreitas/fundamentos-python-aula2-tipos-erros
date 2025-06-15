@@ -22,3 +22,17 @@ valor1 = bool(input("Digite True ou False: "))
 valor2 = bool(input("Digite True ou False: "))
 resultado_user = valor1 or valor2
 print(f"Resultado da boolena é: {resultado_user}")
+
+# 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
+titulo("Aqui vamos inverter o valor booleano")
+valor3 = input("Digite True ou False: ").strip().capitalize()
+if valor3 == "True":
+    bool_value = True
+    invertido = not bool_value
+    print(invertido)
+elif valor3 == "False":
+    bool_value = False
+    invertido = not bool_value
+    print(invertido)
+else:
+    print("Entrada inválida! Use apenas True ou False")
