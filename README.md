@@ -1,6 +1,6 @@
 ---
 
-## 📦 Atividades de Inteiros (int)
+## 📦 Exercício 01 - Operações Matemáticas em Python com foco de Inteiros (int)
 
 Estas atividades reforçam o uso de **números inteiros em Python**, entrada de dados com `input()` e operadores matemáticos.
 
@@ -13,7 +13,8 @@ Para padronizar e reutilizar a formatação dos cabeçalhos dos exercícios no t
 ```python
 def titulo(titulo):
     print("\n" + titulo)
-    print("*" * len(titulo) + "\n")```
+    print("*" * len(titulo) + "\n")
+```
 
 ### Adicionando try e except básicos no codigo
 
@@ -38,5 +39,20 @@ def titulo(titulo):
 
 5. **Quadrado de um número**  
    Lê um número e imprime seu quadrado usando `**`.
+
+---
+# Exercício 02 - Operações Matemáticas em Python com foco no Float
+
+Este programa Python realiza diversas operações matemáticas básicas e conversões, interagindo com o usuário via terminal.
+
+## 📋 Funcionalidades
+
+O programa contém as seguintes operações:
+
+1. **Soma de dois números flutuantes**
+2. **Cálculo de média de notas** (com verificação de aprovação)
+3. **Cálculo de potência** (base e expoente)
+4. **Conversão de temperatura** (Celsius para Fahrenheit)
+5. **Cálculo da área de um círculo**
 
 ---
