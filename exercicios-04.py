@@ -10,8 +10,15 @@ def titulo(titulo):
     print("*" * len(titulo) + "\n")
 
 # 16. Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
-
+titulo("Aqui é uma logica boolena com o AND")
 verdade = True
 Falso = False
 resultado = verdade and Falso
 print(f"Resultado do AND lógica: {resultado}")
+
+# 17. Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
+titulo("Aqui vamos revelar o resultado dos valores que você colocar com a logica OR")
+valor1 = bool(input("Digite True ou False: "))
+valor2 = bool(input("Digite True ou False: "))
+resultado_user = valor1 or valor2
+print(f"Resultado da boolena é: {resultado_user}")
