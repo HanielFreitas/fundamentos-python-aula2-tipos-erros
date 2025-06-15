@@ -36,3 +36,12 @@ elif valor3 == "False":
     print(invertido)
 else:
     print("Entrada inválida! Use apenas True ou False")
+
+# 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
+titulo("Comparar dois numeros")
+num1 = float(input("Digite um numero: "))
+num2 = float(input("Digite outro numero: "))
+comparar = num1 == num2
+print(comparar)
+
+# 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
