@@ -41,9 +41,33 @@ def titulo(titulo):
    Lê um número e imprime seu quadrado usando `**`.
 
 ---
-# Exercício 02 - Operações Matemáticas em Python com foco no Float
+## Exercício 02 - Operações Matemáticas em Python com foco no Float
 
 Este programa Python realiza diversas operações matemáticas básicas e conversões, interagindo com o usuário via terminal.
+
+### ♻️ Refatoração com função `titulo()`
+
+Para padronizar e reutilizar a formatação dos cabeçalhos dos exercícios no terminal, foi criada a função:
+
+```python
+def titulo(titulo):
+    print("\n" + titulo)
+    print("*" * len(titulo) + "\n")
+```
+
+### Criei uma calculadora de media que o usuário pode escolher quantas notas deseja calcular:
+Localizado no comentario:
+   7. Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
+
+### Adicionando try e except básicos no codigo
+
+except ValueError:
+    print("could not convert string to float: '2,2'")
+except ZeroDivisionError:
+    print("division by zero")
+except KeyboardInterrupt:
+    print("Acredito que não queira mais digitar nenhum número")
+
 
 ## 📋 Funcionalidades
 
