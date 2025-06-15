@@ -29,3 +29,9 @@ titulo("Vamos dividir o dd/mm/aaaa")
 data = input("Digite uma data no formato dd/mm/aaaa:")
 data_sep = data.split("/")
 print(data_sep)
+
+# 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
+titulo("Vamos juntar os seus textos")
+texto1 = input("Digite o texto 01: ")
+texto2 = input("Digite o texto 02: ")
+print(texto1 + " " + texto2)
